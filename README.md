@@ -78,26 +78,26 @@ See `CoarseInitialzer::setFirstStereo` and  `FullSystem::InitializeFromInitialzi
 We tested stereo DSO on kitti datasets and datasets we collect including highway, park and garage. It performs better than DSO in degrees of scale, accuracy, robustness and speed.
 Below is the trajectory that DSO runs on Kitti 05. We can see that the scale of DSO is much smaller than groud truth.
 
-![05dso](http://ovms74foj.bkt.clouddn.com/05.png?imageView2/0/w/400/h/400)
+![05dso](pics/05/05dso.png)
 
 Stereo DSO can achieve much better accuracy and faster speed:
 
-![05sdso](http://ovms74foj.bkt.clouddn.com/05sdso.png?imageView2/0/w/402/h/400)
+![05sdso](pics/05/05sdso.png)
 
 It is evaluated that stereo DSO achieves about 1.1% ~ 4.2% translation error, 0.001deg/m ~ 0.0053deg/m rotation error, with running time of 53ms per frame.
 
-![05tl](http://ovms74foj.bkt.clouddn.com/05_tl.png?imageView2/0/w/402/h/400)
+![05tl](pics/05/05_tl.png)
 
-![05rl](http://ovms74foj.bkt.clouddn.com/05_rl.png?imageView2/0/w/402/h/400)
+![05rl](pics/05/05_rl.png)
 
 We also tested stereo DSO on Kitti 00.
 It achieves about 1.3% ~ 3.7% translation error, 0.002 deg/m ~ 0.007deg/m rotation error, with running time of 56ms per frame. 
 
-![00sdso](http://ovms74foj.bkt.clouddn.com/00.png?imageView2/0/w/402/h/402)
+![00sdso](pics/00/00.png)
 
-![00tl](http://ovms74foj.bkt.clouddn.com/00_tl.png?imageView2/0/w/402/h/400)
+![00tl](pics/00/00_tl.png)
 
-![00rl](http://ovms74foj.bkt.clouddn.com/00_rl.png?imageView2/0/w/402/h/400)
+![00rl](pics/00/00_rl.png)
 
 In conlcusion, stereo DSO have several advantages comparing with DSO:
 
